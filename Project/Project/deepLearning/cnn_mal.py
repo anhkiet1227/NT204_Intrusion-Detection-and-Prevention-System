@@ -6,7 +6,7 @@ from tensorflow.keras import layers, models
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 
 # Load your dataset
-data = pd.read_csv('./MalwareDataset.csv')
+data = pd.read_csv('../dataset/MalwareDataset.csv')
 
 # Dropping the 'hash' column
 data = data.drop(columns=['hash'])

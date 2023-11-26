@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 
 # Load the dataset
-data = pd.read_csv('./MalwareDataset.csv')  # Update this to your file path
+data = pd.read_csv('../dataset/MalwareDataset.csv')  # Update this to your file path
 
 # Preprocessing
 data = data.drop(columns=['hash'])  # Dropping the 'hash' column

@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 
 # Importing the dataset
-data = pd.read_csv('./MalwareDataset.csv')
+data = pd.read_csv('../dataset/MalwareDataset.csv')
 
 # Dropping the 'hash' column as it's not useful for prediction
 data = data.drop(columns=['hash'])
